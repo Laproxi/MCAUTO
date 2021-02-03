@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MCAUTO.exe" version="0.2.2.2" publicKeyToken="3b4b13b29e3d23c4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="servericon_z6R_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MCAUTO" version="0.2.2.2" publicKeyToken="3DB39BA2692AD88E" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MCAUTO.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MCAUTO.exe" size="3032544">
+      <assemblyIdentity name="MCAUTO" version="0.2.2.2" publicKeyToken="3DB39BA2692AD88E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JOH/xcUfddEJ5EFsqChWX/HpEavgLtPNtaEzLwZ+RjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MCAUTO.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="servericon_z6R_icon.ico" size="339373">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sYkJv4yDycMvJsQc1fLmtKYDR38MjxGbNp7ZSvitqA8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-1A38QEM\SuBxZ" issuerKeyHash="dbf36b4b3b2415746f0355a45b767a604bc70abd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wuB4afWOaN5sM50iIv05kgWBLF8ZnYYFhTfGg9zcvUU=</DigestValue></Reference></SignedInfo><SignatureValue>JBkLcufbW1hx95kf9g9BVAi9yVaoJ8AUNfSDQHFJ6uSGmQjgQtoO0sGOw/dk6hs9WJhnHlycE4DYZ41ggIkPZAlJ7xMd8SMhV9tni5OKvhQB8HIQapw4ykixPRWf650K+ltDSMYvseEMP34J4QGjvurQdYN5KDD+p2ZUsb+mdac=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wn4iDI0I0Sy9ElCDky/nKZuoVan+3FL5ugQ9pywObCgV5jZOZzIas1bdIrR0bssKqJLlJfF8U1ZuTD1zdtw3Ye/FSIOQygnlPj2b/AQB4MoEmq8EGDu5jelVts3RmFJUH5lZQwpQaE7p+Q+jWWEr+0TSk0rz3Gw8Gf4LYOWPSuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="45bddcdc83c6378505869d195f2c81059239fd22229d336cde688ef56978e0c2" Description="" Url=""><as:assemblyIdentity name="MCAUTO.exe" version="0.2.2.2" publicKeyToken="3b4b13b29e3d23c4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1A38QEM\SuBxZ</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ub45BeFQWPAI+Z04JvWEuBIPFUr0UWGqCiZcj78elIg=</DigestValue></Reference></SignedInfo><SignatureValue>wN24ckmPz3UuKT2d5PjWqa+wFugQ3qutWLvxazh4z5Iri+QVqXG9rABnF6m2m1YymzrcmJbgHTnemzcOrfrPHPYcxGr3ca8JAAI88pHH0jxduDNlrAHJoT91LF7NjpfGWi8usiFUKemgYd4bP7jLsnQvPlJN8mYwS0CSoQMrRoI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wn4iDI0I0Sy9ElCDky/nKZuoVan+3FL5ugQ9pywObCgV5jZOZzIas1bdIrR0bssKqJLlJfF8U1ZuTD1zdtw3Ye/FSIOQygnlPj2b/AQB4MoEmq8EGDu5jelVts3RmFJUH5lZQwpQaE7p+Q+jWWEr+0TSk0rz3Gw8Gf4LYOWPSuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQJ+5fo48FcphFesdNdrl/LjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAQQAzADgAUQBFAE0AXABTAHUAQgB4AFowHhcNMjEwMTIyMDY1NTEwWhcNMjIwMTIyMTI1NTEwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADEAQQAzADgAUQBFAE0AXABTAHUAQgB4AFowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMJ+IgyNCNEsvRJQg5Mv5ymbqFWp/txS+boEPacsDmwoFeY2TmcyGrNW3SK0dG7LCqiS5SXxfFNWbkw9c3bcN2HvxUiDkMoJ5T49m/wEAeDKBJqvBBg7uY3pVbbN0ZhSVB+ZWUMKUGhO6fkPo1lhK/tE0pNK89xsPBn+C2Dlj0rpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEArkweVppNHJ8dLXuFBbPEGOOnL9XYIb4pj95Aroxes5t+S4j2+oUAFTanDKF1dVOgONy6/Js7zQkLS+Sl2HkpeZm+xuI1xaIHenun2dxA4YZXTULeknsrbvQualIUkrm4bbvj9bAvak3ZcuDQlmu1M3m8lynuIZreay4gEa654FI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

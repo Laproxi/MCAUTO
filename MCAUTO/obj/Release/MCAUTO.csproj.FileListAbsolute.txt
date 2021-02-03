@@ -1,0 +1,10 @@
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Release\MCAUTO.exe.config
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Release\MCAUTO.exe
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Release\MCAUTO.pdb
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.csprojAssemblyReference.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.Form1.resources
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.Properties.Resources.resources
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.csproj.GenerateResource.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.csproj.CoreCompileInputs.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.exe
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Release\MCAUTO.pdb

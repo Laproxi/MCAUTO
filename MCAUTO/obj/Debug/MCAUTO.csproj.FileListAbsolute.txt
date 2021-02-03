@@ -1,0 +1,15 @@
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.csprojAssemblyReference.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.Form1.resources
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.Properties.Resources.resources
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.csproj.GenerateResource.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.csproj.CoreCompileInputs.cache
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Debug\MCAUTO.exe.config
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Debug\MCAUTO.exe
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Debug\MCAUTO.pdb
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.exe
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.pdb
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Debug\MCAUTO.exe.manifest
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\bin\Debug\MCAUTO.application
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.TrustInfo.xml
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.exe.manifest
+C:\Users\SuBxZ\source\repos\MCAUTO\MCAUTO\obj\Debug\MCAUTO.application
